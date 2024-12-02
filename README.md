@@ -44,7 +44,7 @@ O remetente é definido nos cabeçalhos. Localize:
 
 ```php
 $headers = "From: meuemail@exemplo.com" . "\r\n" .
-           "Reply-To: meuemail@exemplo.pro" . "\r\n";
+           "Reply-To: meuemail@exemplo.com" . "\r\n";
 ```
 
 Substitua `hi@ubity.pro` pelo e-mail que deseja configurar como remetente. Este endereço pode ser um e-mail próprio ou genérico configurado no servidor.
